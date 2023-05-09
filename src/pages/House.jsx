@@ -270,11 +270,10 @@ function House() {
 
     return stars;
   }
-  console.log(house)
 
   return (
     <div key={`house_${id}`}>
-      <CarouselContainer >
+      <CarouselContainer>
         {house.pictures.length !== 1 &&<LeftArrow src={leftArrow} alt="left arrow" onClick={handlePrevImage}/>}
         <Img src={house.pictures[currentImageIndex]} alt='Carousel image'/>
         {house.pictures.length !== 1 &&<Number>{currentImageIndex+1}/{house.pictures.length}</Number>}
