@@ -40,10 +40,10 @@ function NavBar() {
     return (
         <Navbar>
           <NavbarLink to="/"><Img src={logo} alt="Kasa logo"/></NavbarLink>
-            <LinkContainer>
+          <LinkContainer>
             <NavbarLink to="/">Accueil</NavbarLink>
-            <NavbarLink to="/about">À Propos</NavbarLink>
-            </LinkContainer>
+            <NavbarLink to="/a-propos">À Propos</NavbarLink>
+          </LinkContainer>
         </Navbar>
     )
 }

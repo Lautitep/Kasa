@@ -5,7 +5,7 @@ import backgroundHome from '../assets/home.jpg'
 function Home() {
   return (
     <>
-      <Banner backgroundImage={backgroundHome} title={true}/>
+      <Banner backgroundImage={backgroundHome} title/>
       <Cards />
     </>
   );
